@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Escape 关闭手机菜单",
+    "passed": true
+  },
+  {
+    "name": "手机菜单站内导航",
+    "passed": true
+  },
+  {
+    "name": "语言切换保留页面、查询与锚点",
+    "passed": true
+  },
+  {
+    "name": "无效表单不显示成功",
+    "passed": true
+  },
+  {
+    "name": "有效演示表单明确未发送未保存",
+    "passed": true
+  },
+  {
+    "name": "作品预览下一项",
+    "passed": true
+  },
+  {
+    "name": "方向键切换作品",
+    "passed": true
+  },
+  {
+    "name": "Escape 关闭灯箱",
+    "passed": true
+  }
+]

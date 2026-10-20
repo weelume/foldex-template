@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-20T08:23:49.648Z",
+  "pageChecks": 104,
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      834,
+      1180
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      844
+    ]
+  ],
+  "locales": [
+    "zh",
+    "en"
+  ],
+  "screenshots": 12,
+  "staticChecks": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "test": "passed",
+    "build": "passed"
+  },
+  "browserPages": "browser-pages.json",
+  "interactions": "browser-interactions.json",
+  "limitations": [
+    "Git 远端未配置，gitUrl=null，不满足市场导入格式；不会伪造地址。",
+    "原站设计与图片再分发授权未确认，禁止声明可商业再分发。",
+    "减少动态效果分支已实现，浏览器工具未提供媒体偏好切换，未实际模拟验证。"
+  ]
+}

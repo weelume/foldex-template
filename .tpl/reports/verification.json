@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-20T08:32:53.509Z",
+  "sourceCommit": null,
+  "sourceDigest": "99c88ca0ddfa2290b7b1f1bc1d9002bfc1e1f8b95c0624f740f28c9abc85b1a1",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "node": "v22.13.1",
+    "packageManager": "pnpm@12.10.1",
+    "cleanDirectory": true,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-20T08:32:25.741Z",
+      "finishedAt": "2026-10-20T08:32:26.870Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-20T08:32:26.871Z",
+      "finishedAt": "2026-10-20T08:32:32.222Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-20T08:32:32.223Z",
+      "finishedAt": "2026-10-20T08:32:32.439Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-20T08:32:32.440Z",
+      "finishedAt": "2026-10-20T08:32:52.105Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-20T08:32:53.220Z",
+      "reason": "独立测试端口完成 HTTP 就绪验证并停止本次服务"
+    }
+  ],
+  "limitations": [
+    "Git 远端未配置，gitUrl=null；此报告仅记录应用检查，整体协议导入校验仍失败。",
+    "未验证原站设计及图片的再分发许可；保留 restricted 声明。",
+    "浏览器媒体偏好切换不可用，减少动态效果分支仅代码核查。"
+  ]
+}

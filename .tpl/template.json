@@ -1,0 +1,224 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "foldex",
+  "version": "1.0.0",
+  "gitUrl": "https://github.com/weelume/foldex-template",
+  "name": "Foldex · 拼贴创意工作室",
+  "localizedNames": {
+    "en": "Foldex · Collage design studio"
+  },
+  "summary": "拼贴风格创意工作室作品集，13 页、中英双语、三端响应式。",
+  "sceneId": "brand-portfolio",
+  "listed": false,
+  "tags": [
+    "拼贴",
+    "作品集",
+    "工作室"
+  ],
+  "stack": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Framer Motion"
+  ],
+  "accentColor": "#0786ee",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "PC 首页真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "src": "assets/desktop-portfolio.webp",
+      "alt": "PC 作品集真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "src": "assets/desktop-branding.webp",
+      "alt": "PC 品牌设计真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "PC 联系页真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "iPad 首页真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180
+    },
+    {
+      "src": "assets/tablet-portfolio.webp",
+      "alt": "iPad 作品集真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180
+    },
+    {
+      "src": "assets/tablet-branding.webp",
+      "alt": "iPad 品牌设计真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "iPad 联系页真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "H5 首页真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "src": "assets/mobile-portfolio.webp",
+      "alt": "H5 作品集真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "src": "assets/mobile-branding.webp",
+      "alt": "H5 品牌设计真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "H5 联系页真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "portfolio",
+          "title": "作品集",
+          "localizedTitles": {
+            "en": "Portfolio"
+          }
+        },
+        {
+          "slug": "portfolio/branding",
+          "title": "品牌设计",
+          "localizedTitles": {
+            "en": "Branding"
+          }
+        },
+        {
+          "slug": "portfolio/websites",
+          "title": "网站设计",
+          "localizedTitles": {
+            "en": "Websites"
+          }
+        },
+        {
+          "slug": "portfolio/photography",
+          "title": "摄影",
+          "localizedTitles": {
+            "en": "Photography"
+          }
+        },
+        {
+          "slug": "portfolio/print",
+          "title": "印刷设计",
+          "localizedTitles": {
+            "en": "Print"
+          }
+        },
+        {
+          "slug": "portfolio/illustration",
+          "title": "数字插画",
+          "localizedTitles": {
+            "en": "Digital Illustration"
+          }
+        },
+        {
+          "slug": "portfolio/art",
+          "title": "艺术创作",
+          "localizedTitles": {
+            "en": "Art"
+          }
+        },
+        {
+          "slug": "pricing",
+          "title": "服务报价",
+          "localizedTitles": {
+            "en": "Pricing"
+          }
+        },
+        {
+          "slug": "testimonials",
+          "title": "客户评价",
+          "localizedTitles": {
+            "en": "Testimonials"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于",
+          "localizedTitles": {
+            "en": "About"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "404",
+          "title": "未找到页面",
+          "localizedTitles": {
+            "en": "Not found"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "源码与原站素材权利分别记录，图片授权待确认",
+    "redistributionAllowed": false
+  }
+}

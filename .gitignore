@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.work/
+.env
+*.tsbuildinfo
+.next-dev/
+
+# 本地日志与私密环境文件不属于源码交付
+*.log
+.env.*
+!.env.example

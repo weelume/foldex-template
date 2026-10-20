@@ -1,0 +1,83 @@
+{
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌配置",
+      "description": "修改品牌配置",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/foldex/config/brand.ts",
+          "kind": "file",
+          "purpose": "品牌配置"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护；不引入未批准依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "双语文案",
+      "description": "修改双语文案",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/foldex/content",
+          "kind": "directory",
+          "purpose": "双语文案"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护；不引入未批准依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题排版",
+      "description": "修改主题排版",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/foldex/theme.css",
+          "kind": "file",
+          "purpose": "主题排版"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护；不引入未批准依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面组合",
+      "description": "修改页面组合",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/foldex/pages",
+          "kind": "directory",
+          "purpose": "页面组合"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护；不引入未批准依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint"
+      ]
+    }
+  ],
+  "$schema": "./schemas/customization.schema.json"
+}
